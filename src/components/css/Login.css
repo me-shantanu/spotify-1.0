@@ -1,0 +1,35 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.login > img {
+  width: 40%;
+}
+
+@media screen and (max-width: 900px) {
+  .login > img {
+    width: 60%;
+  }
+}
+.login > a {
+  outline: none;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 99px;
+  background-color: #1db954;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login > a:hover,
+.login > a:focus {
+  outline: none;
+  text-decoration: none;
+  background-color: -webkit-linear-gradient(
+    rgb(29, 185, 84),
+    rgb(124, 207, 124)
+  );
+}
